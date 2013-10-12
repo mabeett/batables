@@ -3,7 +3,7 @@ class UsersController < ApplicationController
   before_action :set_user, only: [:show, :edit, :update, :destroy]
 
   def index
-    @user = User.all
+    @user = User.all.order(:first_name)
   end
 
   def new
@@ -24,7 +24,7 @@ class UsersController < ApplicationController
   end
 
   def update
-    if @user.save
+    if @user.update(user_params)
       redirect_to @user, notice: 'The user was successfully updated.'
     else
       render 'edit'
