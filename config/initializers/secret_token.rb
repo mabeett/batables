@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-BaseProject::Application.config.secret_key_base = 'd8beccc21d5288c7a8c17cf0186a503a804ca0d4540d3b191e1f8333869f5a77b1e44f95356bac64430db9aa4eb83b5514726e794665db3133ceef1beafbe0c3'
+Batables::Application.config.secret_key_base = 'd8beccc21d5288c7a8c17cf0186a503a804ca0d4540d3b191e1f8333869f5a77b1e44f95356bac64430db9aa4eb83b5514726e794665db3133ceef1beafbe0c3'

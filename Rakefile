@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-BaseProject::Application.load_tasks
+Batables::Application.load_tasks

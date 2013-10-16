@@ -1,3 +1,3 @@
 # Be sure to restart your server when you modify this file.
 
-BaseProject::Application.config.session_store :cookie_store, key: '_base_project_session'
+Batables::Application.config.session_store :cookie_store, key: '_batables_session'
