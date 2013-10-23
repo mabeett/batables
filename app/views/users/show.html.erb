@@ -1,0 +1,5 @@
+<h1><%= "#{@user.first_name} #{@user.last_name}" %></h1>
+<p class="center"><%= gravatar_for @user %></p>
+<p>Email: <%= @user.email %></p>
+
+<%= link_to 'User list', users_url %>
